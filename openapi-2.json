@@ -10486,10 +10486,10 @@
         }
       ]
     },
-    "BungieMembershipType": {
+    "BungieMembershipTypeArray": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/BungieMembershipType"
+        "$ref": "#/definitions/BungieMembershipTypeArray"
       }
     },
     "GroupsV2.HostGuidedGamesPermissionLevel": {
