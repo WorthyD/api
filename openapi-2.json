@@ -2078,7 +2078,7 @@
             "description": "Created user object",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/GroupV2.GroupQuery"
+              "$ref": "#/definitions/GroupsV2.GroupQuery"
             }
           }
         ],
