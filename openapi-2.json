@@ -2071,7 +2071,17 @@
         ],
         "description": "Search for Groups.",
         "operationId": "GroupV2.GroupSearch",
-        "parameters": [],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Created user object",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/GroupV2.GroupQuery"
+            }
+          }
+        ],
         "deprecated": false,
         "responses": {
           "200": {
